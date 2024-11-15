@@ -5,7 +5,7 @@
 
 // console.log(`hello my name is ${name} and my repocount is ${repoCount}`);
 
-// const gameName = new String("akASHYdv-hc")
+const gameName = new String("akAS_HY_dv_hc")
 // console.log(gameName);
 // console.log(gameName[0]);//key-value pair
 // console.log(gameName.length);
@@ -29,14 +29,27 @@
 // refer w3scool tutorail 
 
 const str = "The morning is upon us.";
-console.log(str.slice(4));
+// console.log(str.slice(4));
 //  console.log(str.slice(-1)); 
 // str.slice(-3, -1);
 // str.slice(0, -1); 
-console.log(str.slice(11,-7));
+// console.log(str.slice(11,-7));
 // console.log(str.slice(4, -1));
 // console.log(str.slice(3, -1));
 // console.log(str.length);
+
+const newStringOne="      akashh       "
+// console.log(newStringOne);
+// console.log(newStringOne.trim()); //trim-->> it removes starting and ending extra spcaes
+
+const url="https://akash.com/akash%20yadav"
+// console.log(url.replace('%20','-'));
+// console.log(url.includes('akash'));//true
+// console.log(url.includes('satyam'));//false
+console.log(gameName.split('_'));
+
+
+
 
 
 
